@@ -1,0 +1,26 @@
+{
+  "name": "react-native-firebase-auth",
+  "version": "0.0.1",
+  "description": "Simplified Firebase authentication with social platform support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "auth",
+    "social",
+    "facebook",
+    "login",
+    "google",
+    "firebase"
+  ],
+  "author": "SSG",
+  "license": "ISC",
+  "peerDependencies": {
+    "firebase": ">=3.0.0",
+    "react-native": ">=0.30.0",
+    "react-native-facebook-login": ">=1.4.0",
+    "react-native-google-signin": ">=0.8.0"
+  }
+}
