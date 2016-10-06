@@ -90,8 +90,8 @@ const FireAuth = class {
     this.user.sendEmailVerification();
   }
 
-  facebookLogin = () => {
-    Auth.Facebook.login()
+  facebookLogin = (permissions) => {
+    Auth.Facebook.login(permissions)
       .then((token) => (
         firebase.auth()
           .signInWithCredential(firebase.auth.FacebookAuthProvider.credential(token))

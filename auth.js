@@ -4,7 +4,7 @@ import { GoogleSignin } from 'react-native-google-signin';
 const Facebook = {
   login: (permissions) => {
     return new Promise((resolve, reject) => {
-      FBLoginManager.loginWithPermissions(permissions, (error, data) => {
+      FBLoginManager.loginWithPermissions(permissions || ['email'], (error, data) => {
         if (!error) {
           resolve(data.credentials.token);
         } else {
