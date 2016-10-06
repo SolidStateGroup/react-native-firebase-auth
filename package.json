@@ -22,5 +22,13 @@
     "react-native": ">=0.30.0",
     "react-native-facebook-login": ">=1.4.0",
     "react-native-google-signin": ">=0.8.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolidStateGroup/react-native-firebase-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SolidStateGroup/react-native-firebase-auth/issues"
+  },
+  "homepage": "https://github.com/SolidStateGroup/react-native-firebase-auth#readme"
 }
