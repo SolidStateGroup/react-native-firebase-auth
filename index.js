@@ -10,13 +10,14 @@ const FireAuth = class {
   onLogin = null;
   onError = null;
 
-  init(config) {
+  init(config, googleConfig) {
     if (!config) {
       console.error('FireAuth must be initialized with a valid firebase configuration object.');
       return;
     }
 
     firebase.initializeApp(config);
+    Auth.Google.configure(googleConfig);
   }
 
   setup = (onLogin, onUserChange, onLogout, onEmailVerified, onError) => {
@@ -61,8 +62,6 @@ const FireAuth = class {
       }
 
     });
-
-    Auth.Google.configure();
   }
 
   login = (email, password) => {

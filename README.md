@@ -25,7 +25,7 @@ import FireAuth from 'react-native-firebase-auth';
 
 constructor(props) {
   super(props);
-  FireAuth.init(config);
+  FireAuth.init(config, {iosClientId: <FROM_DEVELOPER_CONSOLE>}); // Firebase config & Google configure options
 }
 
 componentDidMount() {
