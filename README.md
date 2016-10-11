@@ -4,6 +4,8 @@ Simplified Firebase authentication for React Native projects with support for Fa
 
 Using this module alongside Firebase means there is no need to write and host any backend code to handle users logging in to your app.
 
+Use our project starter repository (https://github.com/SolidStateGroup/firebase-project-starter) to help you get started setting up your own Firebase project.
+
 ## Install
 ```
 $ npm install --save react-native-firebase-auth
