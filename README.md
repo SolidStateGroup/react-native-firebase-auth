@@ -1,6 +1,7 @@
 # React Native Firebase Auth
 
 Simplified Firebase authentication for React Native projects with support for Facebook & Google login.
+
 Using this module alongside Firebase means there is no need to write and host any backend code to handle users logging in to your app.
 
 ## Install
