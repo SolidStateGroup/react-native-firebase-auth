@@ -1,16 +1,17 @@
-# React Native Firebase Authentication
+# React Native Firebase Auth
 
-Simplified Firebase authentication with support for social platform login.
+Simplified Firebase authentication for React Native projects with support for Facebook & Google login.
+Using this module alongside Firebase means there is no need to write and host any backend code to handle users logging in to your app.
 
 ## Install
 ```
-$ npm install react-native-firebase-auth --save
+$ npm install --save react-native-firebase-auth
 ```
 
 ## Project setup
 
 ```
-$ npm install firebase react-native-facebook-login react-native-google-signin --save
+$ npm install --save firebase react-native-facebook-login react-native-google-signin
 ```
 
 You will need setup both of the social platform dependencies in the usual way.
@@ -89,4 +90,5 @@ updatePassword () => {
 ## Credits
 
 https://github.com/magus/react-native-facebook-login
+
 https://github.com/devfd/react-native-google-signin
