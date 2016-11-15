@@ -11,7 +11,7 @@ Use our project starter repository (https://github.com/SolidStateGroup/firebase-
 $ npm install --save react-native-firebase-auth
 ```
 
-## Project setup
+## Project Setup
 
 ```
 $ npm install --save firebase react-native-facebook-login react-native-google-signin
@@ -22,6 +22,8 @@ You will need setup both of the social platform dependencies in the usual way.
 https://github.com/devfd/react-native-google-signin#project-setup-and-initialization
 https://github.com/magus/react-native-facebook-login#setup
 
+You will need to initialise Firebase within your app in the usual way. See https://firebase.google.com/docs/web/setup
+
 ## Usage
 
 ```
@@ -29,7 +31,7 @@ import FireAuth from 'react-native-firebase-auth';
 
 constructor(props) {
   super(props);
-  FireAuth.init(config, {iosClientId: <FROM_DEVELOPER_CONSOLE>}); // Firebase config & Google configure options
+  FireAuth.init({iosClientId: <IOS_CLIENT_ID>}); // Google Sign in options. You will need iosClientId for iOS apps.
 }
 
 componentDidMount() {
