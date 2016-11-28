@@ -25,7 +25,7 @@ const FireAuth = class {
 
       if (user) {
         // Determine if user needs to verify email
-        var emailVerified = !user.providerData || user.providerData[0].providerId != 'password' || user.emailVerified;
+        var emailVerified = !user.providerData || !user.providerData.length || user.providerData[0].providerId != 'password' || user.emailVerified;
 
         // Upsert profile information
         var profileRef = firebase.database().ref(`profiles/${user.uid}`);
