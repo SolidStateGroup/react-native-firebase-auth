@@ -17,7 +17,7 @@ $ npm install --save react-native-firebase-auth
 $ npm install --save firebase react-native-facebook-login react-native-google-signin
 ```
 
-You will need setup both of the social platform dependencies in the usual way.
+You will need fully setup both of the below social platform dependencies (react-native-google-signin and react-native-facebook-login).
 
 https://github.com/devfd/react-native-google-signin#project-setup-and-initialization
 https://github.com/magus/react-native-facebook-login#setup
