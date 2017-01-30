@@ -1,5 +1,5 @@
 import { FBLoginManager } from 'react-native-facebook-login';
-import { GoogleSignin } from 'react-native-google-signin';
+import { GoogleSignIn } from 'react-native-google-sign-in';
 
 const Facebook = {
   login: (permissions) => {
@@ -28,11 +28,11 @@ const Facebook = {
 
 const Google = {
   configure: (options) => {
-    GoogleSignin.configure(options);
+    GoogleSignIn.configure(options);
   },
   login: () => {
     return new Promise((resolve, reject) => {
-      GoogleSignin.signIn()
+      GoogleSignIn.signInPromise()
         .then((user) => {
           resolve(user.accessToken);
         })
@@ -44,7 +44,7 @@ const Google = {
   },
   logout: () => {
     return new Promise((resolve, reject) => {
-      GoogleSignin.signOut()
+      GoogleSignIn.signOutPromise()
         .then(() => {
           resolve(true);
         })
