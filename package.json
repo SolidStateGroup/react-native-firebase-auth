@@ -21,7 +21,7 @@
     "firebase": ">=3.0.0",
     "react-native": ">=0.30.0",
     "react-native-facebook-login": ">=1.4.0",
-    "react-native-google-signin": ">=0.8.0"
+    "react-native-google-sign-in": ">=0.0.8"
   },
   "repository": {
     "type": "git",
