@@ -1,5 +1,5 @@
 import { FBLoginManager } from 'react-native-facebook-login';
-import { GoogleSignIn } from 'react-native-google-sign-in';
+import GoogleSignIn from 'react-native-google-sign-in';
 
 const Facebook = {
   login: (permissions) => {
