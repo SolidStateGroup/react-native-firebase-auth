@@ -34,7 +34,7 @@ import FireAuth from 'react-native-firebase-auth';
 
 constructor(props) {
   super(props);
-  FireAuth.init({iosClientId: <IOS_CLIENT_ID>}); // Google Sign in options. You will need iosClientId for iOS apps.
+  FireAuth.init({iosClientId: <IOS_CLIENT_ID>}); // This is the CLIENT_ID found in your Google services plist.
 }
 
 componentDidMount() {
