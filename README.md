@@ -1,6 +1,6 @@
-# React Native Firebase Auth
 **This is the react-native implementation of https://github.com/SolidStateGroup/simple-firebase-auth**
 
+# React Native Firebase Auth
 
 Simplified Firebase authentication for React Native projects with support for Facebook & Google login.
 
