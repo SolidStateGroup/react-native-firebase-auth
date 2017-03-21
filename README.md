@@ -6,6 +6,8 @@ Using this module alongside Firebase means there is no need to write and host an
 
 Use our project starter repository (https://github.com/SolidStateGroup/firebase-project-starter) to help you get started setting up your own Firebase project.
 
+* This is the react-native implementation of https://github.com/SolidStateGroup/simple-firebase-auth *
+
 ## Install
 ```
 $ npm install --save react-native-firebase-auth
