@@ -14,12 +14,12 @@ $ npm install --save react-native-firebase-auth
 ## Project Setup
 
 ```
-$ npm install --save firebase react-native-facebook-login react-native-google-signin
+$ npm install --save firebase react-native-facebook-login react-native-google-sign-in
 ```
 
-You will need fully setup both of the below social platform dependencies (react-native-google-signin and react-native-facebook-login).
+You will need fully setup both of the below social platform dependencies (react-native-google-sign-in and react-native-facebook-login).
 
-https://github.com/devfd/react-native-google-signin#project-setup-and-initialization
+https://github.com/joonhocho/react-native-google-sign-in#getting-started
 https://github.com/magus/react-native-facebook-login#setup
 
 You will need to initialise Firebase within your app in the usual way. See https://firebase.google.com/docs/web/setup
@@ -96,4 +96,4 @@ updatePassword () => {
 
 https://github.com/magus/react-native-facebook-login
 
-https://github.com/devfd/react-native-google-signin
+https://github.com/joonhocho/react-native-google-sign-in
