@@ -1,6 +1,6 @@
 {
   "name": "react-native-firebase-auth",
-  "version": "0.0.11",
+  "version": "1.0.0",
   "description": "Simplified Firebase authentication with social platform support",
   "main": "index.js",
   "scripts": {

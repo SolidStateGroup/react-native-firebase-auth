@@ -9,10 +9,13 @@ Using this module alongside Firebase means there is no need to write and host an
 Use our project starter repository (https://github.com/SolidStateGroup/firebase-project-starter) to help you get started setting up your own Firebase project.
 
 
-## Install
+## Installation
+
 ```
 $ npm install --save react-native-firebase-auth
 ```
+
+**Note:** If you use React Native < `v0.39` or you are already using `react-native-google-signin` then stick with `v0.0.11` (`npm install react-native-firebase-auth@0.0.11 --save`)
 
 ## Project Setup
 
