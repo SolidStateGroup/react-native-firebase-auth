@@ -1,3 +1,5 @@
+**This is the react-native implementation of https://github.com/SolidStateGroup/simple-firebase-auth**
+
 # React Native Firebase Auth
 
 Simplified Firebase authentication for React Native projects with support for Facebook & Google login.
@@ -5,6 +7,7 @@ Simplified Firebase authentication for React Native projects with support for Fa
 Using this module alongside Firebase means there is no need to write and host any backend code to handle users logging in to your app.
 
 Use our project starter repository (https://github.com/SolidStateGroup/firebase-project-starter) to help you get started setting up your own Firebase project.
+
 
 ## Install
 ```
@@ -31,7 +34,7 @@ import FireAuth from 'react-native-firebase-auth';
 
 constructor(props) {
   super(props);
-  FireAuth.init({iosClientId: <IOS_CLIENT_ID>}); // Google Sign in options. You will need iosClientId for iOS apps.
+  FireAuth.init({iosClientId: <IOS_CLIENT_ID>}); // This is the CLIENT_ID found in your Google services plist.
 }
 
 componentDidMount() {
@@ -97,3 +100,13 @@ updatePassword () => {
 https://github.com/magus/react-native-facebook-login
 
 https://github.com/joonhocho/react-native-google-sign-in
+
+# Getting Help
+If you encounter a bug or feature request we would like to hear about it. Before you submit an issue please search existing issues in order to prevent duplicates.
+
+# Contributing
+For more information about contributing PRs, please see our <a href="CONTRIBUTING.md">Contribution Guidelines</a>.
+
+
+# Get in touch
+If you have any questions about our projects you can email <a href="mailto:projects@solidstategroup.com">projects@solidstategroup.com</a>.
