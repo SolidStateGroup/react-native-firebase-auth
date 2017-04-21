@@ -2,6 +2,8 @@
 
 # React Native Firebase Auth
 
+[![Gitter](https://img.shields.io/gitter/room/gitterHQ/gitter.svg)](https://gitter.im/SolidStateGroup/react-native-firebase-auth?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Simplified Firebase authentication for React Native projects with support for Facebook & Google login.
 
 Using this module alongside Firebase means there is no need to write and host any backend code to handle users logging in to your app.
