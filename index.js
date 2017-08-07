@@ -67,6 +67,15 @@ const FireAuth = class {
     }
   }
 
+  loginAnonymously = () => {
+    try {
+      firebase.auth().signInAnonymously()
+        .catch((err) => this.onError && this.onError(err));
+    } catch (e) {
+      this.onError && this.onError(e);
+    }
+  }
+
   register = (username, password) => {
     try {
       firebase.auth().createUserWithEmailAndPassword(username, password)
