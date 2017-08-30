@@ -55,6 +55,10 @@ login = () => {
   FireAuth.login(this.state.email, this.state.password);
 }
 
+loginAnonymously = () => {
+  FireAuth.loginAnonymously();
+}
+
 facebookLogin() {
   FireAuth.facebookLogin();
 }
