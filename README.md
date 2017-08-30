@@ -1,10 +1,3 @@
-## This fork adds the following functionality:
-
-* Add the ability to login anonymously.
-* Remove the default behaviour of adding the user to the database as this has cost implications.
-
----
-
 **This is the react-native implementation of https://github.com/SolidStateGroup/simple-firebase-auth**
 
 # React Native Firebase Auth
@@ -60,6 +53,10 @@ register = () => {
 
 login = () => {
   FireAuth.login(this.state.email, this.state.password);
+}
+
+loginAnonymously = () => {
+  FireAuth.loginAnonymously();
 }
 
 facebookLogin() {
